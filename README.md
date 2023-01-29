@@ -1,5 +1,6 @@
 # streaming-03-rabbitmq
-
+## Author: Jonathan Nkangabwa
+## Date: January 29th, 2023
 Get started with RabbitMQ, a message broker, that enables multiple processes to communicate reliably through an intermediary
 
 ## Before You Begin
