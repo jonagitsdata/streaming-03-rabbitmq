@@ -1,12 +1,14 @@
 """
     This program sends a message to a queue on the RabbitMQ server.
 
-    Author: Denise Case
-    Date: January 14, 2023
+    Author: Jonathan Nkangabwa
+    Date: January 29, 2023
 
 """
 
 # add imports at the beginning of the file
+#from multiprocessing import connection
+import multiprocessing.connection
 import pika
 import sys
 
@@ -33,15 +35,18 @@ def send_message(host: str, queue_name: str, message: str):
         # print a message to the console for the user
         print(f" [x] Sent {message}")
     except pika.exceptions.AMQPConnectionError as e:
-        print(f"Error: Connection to RabbitMQ server failed: {e}")
+ # type: ignore # type: ignore # type: ignore        print(f"Error: Connection to RabbitMQ server failed: {e}")
+ # type: ignore        print(f"Error: Connection to RabbitMQ server failed: {e}")
         sys.exit(1)
     finally:
         # close the connection to the server
         conn.close()
-
+ # type: ignore
 # Standard Python idiom to indicate main program entry point
 # This allows us to import this module and use its functions
 # without executing the code below.
 # If this is the program being run, then execute the code below
 if __name__ == "__main__":
-    send_message("llllocalhost","hello","Hello World!")
+    send_message("localhost","hello","Who else is hungry?")
+
+   #def send_message(host: str, queue_name: str, message: str):
