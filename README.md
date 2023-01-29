@@ -51,6 +51,7 @@ As long as the process is running, we cannot use this terminal for other command
 1. Execute the script. 
 1. Watch what happens in the listening window.
 1. Do this several times to emit at least 3 different messages.
+## Screenshot Version 1 
 
 ## Version 1: Don't Repeat Yourself (DRY)
 
@@ -89,6 +90,7 @@ Each of the version 2 programs include an error as well.
 1. How many hits did you get? **320 million code hits, 5 packages**
 1. Learn and understand this common Python idiom.
 
+## SCREENSHOT Version 2
 ## Reference
 
 - [RabbitMQ Tutorial - Hello, World!](https://www.rabbitmq.com/tutorials/tutorial-one-python.html)
