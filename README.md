@@ -98,7 +98,7 @@ Each of the version 2 programs include an error as well.
 
 ## Multiple Terminals
 
-![Mac Example](screenshot.png)
+
 ![Version1](v1_emit.png)
 ![Version2.1](v2_emit.png)
 ![Version2.2](v2_emit_2.png)
